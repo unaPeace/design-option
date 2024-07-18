@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- set the encoding of your site -->
+    <meta charset="utf-8" />
+    <!-- set the viewport width and initial-scale on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <!-- include the site stylesheet -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- include the site stylesheet -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+      *,
+      *:before,
+      *:after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: "Outfit", sans-serif;
+        -ms-scroll-chaining: none;
+        overscroll-behavior: none;
+      }
+
+      ::-webkit-scrollbar {
+        display: none;
+      }
+
+      *::-moz-selection,
+      *::selection {
+        color: #333;
+        background-color: lightgray;
+      }
+
+      body {
+        background-image: url(./images/background/img_003.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+
+      main {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .shade {
+        position: absolute;
+        z-index: -100;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        opacity: 50%;
+        background-image: linear-gradient(
+          to bottom,
+          #614313,
+          #744b0a,
+          #916216,
+          #b47d23,
+          #c99035
+        );
+      }
+
+      .text-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+      }
+
+      h1 {
+        font-family: Outfit;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 120%;
+
+        span {
+          font-weight: 200;
+        }
+      }
+
+      h1:hover {
+        cursor: pointer;
+        text-decoration: underline 2px;
+        color: #eee;
+      }
+
+      .back-to-btn {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        padding: 6px;
+        border-radius: 0;
+        border: 1px solid #000;
+        background: #fff;
+        text-transform: uppercase;
+        z-index: 1000;
+        line-height: 12px;
+        color: #000;
+
+        span {
+          font-size: 30px;
+        }
+      }
+
+      .back-to-btn:hover {
+        background: #c99035;
+        border: 1px solid #fff;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="shade"></div>
+      <div class="text-cont">
+        <a href="./design_01/index.html">
+          <h1><span>Demo</span> Option A</h1>
+        </a>
+        <a href="./design_02/home.html">
+          <h1><span>Demo</span> Option B</h1>
+        </a>
+      </div>
+    </main>
+    <a href="index.html">
+      <button class="back-to-btn">
+        Back to main menu <span>&#x2190;</span>
+      </button>
+    </a>
+  </body>
+</html>
