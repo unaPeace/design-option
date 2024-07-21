@@ -62,7 +62,7 @@ Copyright 2015 Kevin Sylvestre
 
         Slide.prototype.type = function() {
             switch (false) {
-                case !this.url.match(/\.(webp|jpeg|jpg|jpe|gif|png|bmp)$/i):
+                case !this.url.match(/\.(.webp|jpeg|jpg|jpe|gif|png|bmp)$/i):
                     return 'image';
                 default:
                     return 'unknown';
@@ -183,7 +183,7 @@ Copyright 2015 Kevin Sylvestre
             if (href == null) {
                 href = this.href();
             }
-            return this.settings.type || (this.href().match(/\.(webp|jpeg|jpg|jpe|gif|png|bmp)$/i) ? "image" : void 0);
+            return this.settings.type || (this.href().match(/\.(.webp|jpeg|jpg|jpe|gif|png|bmp)$/i) ? "image" : void 0);
         };
 
         Lighter.prototype.resize = function(dimensions) {

@@ -4261,7 +4261,7 @@ a:focus {
 }
 
 .error-sec .error-code b {
-  background-image: url(images/zero.png);
+  background-image: url(images/zero.webp);
   background-repeat: no-repeat;
   background-size: cover;
   text-indent: -9999px;

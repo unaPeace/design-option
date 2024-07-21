@@ -1393,7 +1393,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 }
 
 .simple-head {
-    background: url(../images/slide-bg-3.jpg) no-repeat;
+    background: url(../images/slide-bg-3.webp) no-repeat;
     background-size: cover;
     padding-top: 20%;
     padding-bottom: 100px;
@@ -1729,7 +1729,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 ========================================================*/
 
 .special-offers {
-    background: #f7f7f7 url(../images/special-bg.jpg) top center no-repeat;
+    background: #f7f7f7 url(../images/special-bg.webp) top center no-repeat;
     background-size: cover;
     padding: 19% 0;
 }
@@ -4013,7 +4013,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 ========================================================*/
 
 .sub-bnr {
-    background: url(../images/sub-bnr-bg.jpg) no-repeat;
+    background: url(../images/sub-bnr-bg.webp) no-repeat;
     background-size: cover !important;
     min-height: 610px;
     text-align: center;
@@ -4766,7 +4766,7 @@ main {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #fff url(../images/special-bg.jpg) center center no-repeat;
+    background: #fff url(../images/special-bg.webp) center center no-repeat;
     background-size: cover;
     visibility: hidden;
     -webkit-transition: visibility 0s 0.7s;

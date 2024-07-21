@@ -1034,7 +1034,7 @@ img.tp-slider-alternative-image {
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.6) !important;
     font-size: 15px;
     line-height: 45px !important;
-    background: url(../images/gradient/g30.png) repeat-x top;
+    background: url(../images/gradient/g30.webp) repeat-x top;
     font-family: arial, sans-serif;
     font-weight: bold;
     letter-spacing: -1px;
@@ -1047,7 +1047,7 @@ img.tp-slider-alternative-image {
     padding: 9px 20px;
     font-size: 19px;
     line-height: 57px !important;
-    background: url(../images/gradient/g40.png) repeat-x top
+    background: url(../images/gradient/g40.webp) repeat-x top
 }
 
 .tp-simpleresponsive .purchase:hover,
@@ -1193,7 +1193,7 @@ img.tp-slider-alternative-image {
 }
 
 .tp-bannershadow.tp-shadow1 {
-    background: url(../assets/shadow1.png) no-repeat;
+    background: url(../assets/shadow1.webp) no-repeat;
     background-size: 100% 100%;
     width: 890px;
     height: 60px;
@@ -1201,7 +1201,7 @@ img.tp-slider-alternative-image {
 }
 
 .tp-bannershadow.tp-shadow2 {
-    background: url(../assets/shadow2.png) no-repeat;
+    background: url(../assets/shadow2.webp) no-repeat;
     background-size: 100% 100%;
     width: 890px;
     height: 60px;
@@ -1209,7 +1209,7 @@ img.tp-slider-alternative-image {
 }
 
 .tp-bannershadow.tp-shadow3 {
-    background: url(../assets/shadow3.png) no-repeat;
+    background: url(../assets/shadow3.webp) no-repeat;
     background-size: 100% 100%;
     width: 890px;
     height: 60px;
@@ -1406,19 +1406,19 @@ img.tp-slider-alternative-image {
 }
 
 .tp-dottedoverlay.twoxtwo {
-    background: url(../assets/gridtile.png)
+    background: url(../assets/gridtile.webp)
 }
 
 .tp-dottedoverlay.twoxtwowhite {
-    background: url(../assets/gridtile_white.png)
+    background: url(../assets/gridtile_white.webp)
 }
 
 .tp-dottedoverlay.threexthree {
-    background: url(../assets/gridtile_3x3.png)
+    background: url(../assets/gridtile_3x3.webp)
 }
 
 .tp-dottedoverlay.threexthreewhite {
-    background: url(../assets/gridtile_3x3_white.png)
+    background: url(../assets/gridtile_3x3_white.webp)
 }
 
 .tpclear {
@@ -1449,7 +1449,7 @@ img.tp-slider-alternative-image {
 .tp-bullets.simplebullets.navbar {
     border: 1px solid #666;
     border-bottom: 1px solid #444;
-    background: url(../assets/boxed_bgtile.png);
+    background: url(../assets/boxed_bgtile.webp);
     height: 40px;
     padding: 0px 10px;
     -webkit-border-radius: 5px;
@@ -1458,7 +1458,7 @@ img.tp-slider-alternative-image {
 }
 
 .tp-bullets.simplebullets.navbar-old {
-    background: url(../assets/navigdots_bgtile.png);
+    background: url(../assets/navigdots_bgtile.webp);
     height: 35px;
     padding: 0px 10px;
     -webkit-border-radius: 5px;
@@ -1469,7 +1469,7 @@ img.tp-slider-alternative-image {
 .tp-bullets.simplebullets.round .bullet {
     cursor: pointer;
     position: relative;
-    background: url(../assets/bullet.png) no-Repeat top left;
+    background: url(../assets/bullet.webp) no-Repeat top left;
     width: 20px;
     height: 20px;
     margin-right: 0px;
@@ -1485,7 +1485,7 @@ img.tp-slider-alternative-image {
 .tp-bullets.simplebullets.round-old .bullet {
     cursor: pointer;
     position: relative;
-    background: url(../assets/bullets.png) no-Repeat bottom left;
+    background: url(../assets/bullets.webp) no-Repeat bottom left;
     width: 23px;
     height: 23px;
     margin-right: 0px;
@@ -1500,7 +1500,7 @@ img.tp-slider-alternative-image {
 .tp-bullets.simplebullets.square .bullet {
     cursor: pointer;
     position: relative;
-    background: url(../assets/bullets2.png) no-Repeat bottom left;
+    background: url(../assets/bullets2.webp) no-Repeat bottom left;
     width: 19px;
     height: 19px;
     margin-right: 0px;
@@ -1515,7 +1515,7 @@ img.tp-slider-alternative-image {
 .tp-bullets.simplebullets.square-old .bullet {
     cursor: pointer;
     position: relative;
-    background: url(../assets/bullets2.png) no-Repeat bottom left;
+    background: url(../assets/bullets2.webp) no-Repeat bottom left;
     width: 19px;
     height: 19px;
     margin-right: 0px;
@@ -1530,7 +1530,7 @@ img.tp-slider-alternative-image {
 .tp-bullets.simplebullets.navbar .bullet {
     cursor: pointer;
     position: relative;
-    background: url(../assets/bullet_boxed.png) no-Repeat top left;
+    background: url(../assets/bullet_boxed.webp) no-Repeat top left;
     width: 18px;
     height: 19px;
     margin-right: 5px;
@@ -1549,7 +1549,7 @@ img.tp-slider-alternative-image {
 .tp-bullets.simplebullets.navbar-old .bullet {
     cursor: pointer;
     position: relative;
-    background: url(../assets/navigdots.png) no-Repeat bottom left;
+    background: url(../assets/navigdots.webp) no-Repeat bottom left;
     width: 15px;
     height: 15px;
     margin-left: 5px !important;
@@ -1605,7 +1605,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/large_left.png) no-Repeat top left;
+    background: url(../assets/large_left.webp) no-Repeat top left;
     width: 40px;
     height: 40px;
 }
@@ -1614,7 +1614,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/large_right.png) no-Repeat top left;
+    background: url(../assets/large_right.webp) no-Repeat top left;
     width: 40px;
     height: 40px;
 }
@@ -1623,7 +1623,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/small_left.png) no-Repeat top left;
+    background: url(../assets/small_left.webp) no-Repeat top left;
     width: 19px;
     height: 14px;
     margin-right: 0px;
@@ -1635,7 +1635,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/small_right.png) no-Repeat top left;
+    background: url(../assets/small_right.webp) no-Repeat top left;
     width: 19px;
     height: 14px;
     margin-right: 0px;
@@ -1647,7 +1647,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/arrow_left.png) no-Repeat top left;
+    background: url(../assets/arrow_left.webp) no-Repeat top left;
     width: 26px;
     height: 26px;
     margin-right: 0px;
@@ -1659,7 +1659,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/arrow_right.png) no-Repeat top left;
+    background: url(../assets/arrow_right.webp) no-Repeat top left;
     width: 26px;
     height: 26px;
     margin-right: 0px;
@@ -1671,7 +1671,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/small_left_boxed.png) no-Repeat top left;
+    background: url(../assets/small_left_boxed.webp) no-Repeat top left;
     width: 20px;
     height: 15px;
     float: left;
@@ -1683,7 +1683,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/small_right_boxed.png) no-Repeat top left;
+    background: url(../assets/small_right_boxed.webp) no-Repeat top left;
     width: 20px;
     height: 15px;
     float: left;
@@ -1695,7 +1695,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/arrowleft.png) no-Repeat top left;
+    background: url(../assets/arrowleft.webp) no-Repeat top left;
     width: 9px;
     height: 16px;
     float: left;
@@ -1707,7 +1707,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/arrowright.png) no-Repeat top left;
+    background: url(../assets/arrowright.webp) no-Repeat top left;
     width: 9px;
     height: 16px;
     float: left;
@@ -1727,7 +1727,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/arrow_left2.png) no-Repeat top left;
+    background: url(../assets/arrow_left2.webp) no-Repeat top left;
     width: 12px;
     height: 17px;
     float: left;
@@ -1739,7 +1739,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/arrow_right2.png) no-Repeat top left;
+    background: url(../assets/arrow_right2.webp) no-Repeat top left;
     width: 12px;
     height: 17px;
     float: left;
@@ -1751,7 +1751,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/arrow_left2.png) no-Repeat top left;
+    background: url(../assets/arrow_left2.webp) no-Repeat top left;
     width: 12px;
     height: 17px;
     float: left;
@@ -1763,7 +1763,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/arrow_right2.png) no-Repeat top left;
+    background: url(../assets/arrow_right2.webp) no-Repeat top left;
     width: 12px;
     height: 17px;
     float: left;
@@ -1775,7 +1775,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/large_left.png) no-Repeat 0 0;
+    background: url(../assets/large_left.webp) no-Repeat 0 0;
     width: 40px;
     height: 40px;
 }
@@ -1784,7 +1784,7 @@ img.tp-slider-alternative-image {
     z-index: 100;
     cursor: pointer;
     position: relative;
-    background: url(../assets/large_right.png) no-Repeat 0 0;
+    background: url(../assets/large_right.webp) no-Repeat 0 0;
     width: 40px;
     height: 40px;
 }
@@ -1853,7 +1853,7 @@ img.tp-slider-alternative-image {
 .tp-bannertimer {
     width: 100%;
     height: 10px;
-    background: url(../assets/timer.png);
+    background: url(../assets/timer.webp);
     position: absolute;
     z-index: 200;
     top: 0px
@@ -1907,11 +1907,11 @@ img.tp-slider-alternative-image {
 .tp-caption.slidelink a div {
     width: 3000px;
     height: 1500px;
-    background: url(../assets/coloredbg.png) repeat
+    background: url(../assets/coloredbg.webp) repeat
 }
 
 .tp-caption.slidelink a span {
-    background: url(../assets/coloredbg.png) repeat
+    background: url(../assets/coloredbg.webp) repeat
 }
 
 .tparrows .tp-arr-imgholder {
@@ -2996,7 +2996,7 @@ img.tp-slider-alternative-image {
 }
 
 .tp-transparentimg {
-    content: "url(../assets/transparent.png)"
+    content: "url(../assets/transparent.webp)"
 }
 
 .tp-3d {
